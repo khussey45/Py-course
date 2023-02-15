@@ -83,13 +83,34 @@
 # print(website[slice])
 
 
-age = int(input("How old are you?: "))
-if age == 100:
-    print("You are too old")
-elif age >= 18:
-    print("you are an adult")
-elif age < 0:
-    print("You haven't been born yet! ")
-else:
-    print("You are a child!")
+# age = int(input("How old are you?: "))
+# if age == 100:
+#     print("You are too old")
+# elif age >= 18:
+#     print("you are an adult")
+# elif age < 0:
+#     print("You haven't been born yet! ")
+# else:
+#     print("You are a child!") 
+
+# logical operators (and, or, not) = used to check if two or more conditional statements are true
+
+# temp = int(input("What is the temperature outside?: "))
+
+# if not(temp >=0 and temp <= 30): 
+#     print("the temperature is good today!")
+#     print("go outside!")
+# elif not(temp < 0 or temp >30):
+#     print("the temperature is bad today!")
+#     print("stay inside!")
+
+# while loop = a statement that will execute it's block of code, as long as it's condition remains true
+
+name = ""
+
+while len(name) == 0:
+    name = input("Enter your name: ")
+
+print("Hello " + name)
+
 
