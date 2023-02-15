@@ -34,7 +34,7 @@
 # print(name.replace("O", "a"))
 # print(name*3)
 
-
+# type casting = converting the data type of a value to another data type 
 
 
 
