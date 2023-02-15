@@ -135,12 +135,24 @@
 
 # nested loops = The "inner loop" will finish all of it's iterations before finishing one iteration of the "outer loop"
 
-rows = int(input("How many rows?: "))
-columns = int(input("How many columns?: "))
-symbol = input("Enter a symbol to use: ")
+# rows = int(input("How many rows?: "))
+# columns = int(input("How many columns?: "))
+# symbol = input("Enter a symbol to use: ")
 
-for i in range(rows):
-    for j in range(columns):
-        print(symbol, end ="")
-    print()
+# for i in range(rows):
+#     for j in range(columns):
+#         print(symbol, end ="")
+#     print()
 
+
+
+# Loop control statements = change a loops execution from its normal seqeunce 
+
+# break = used to terminate the loop entirely
+# continue = skips to the next iteration of the loop
+# pass = does nothing, acts as a placeholder
+
+while True:
+    name = input("Enter your name: ")
+    if name != "":
+        break
