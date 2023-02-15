@@ -34,10 +34,33 @@
 # print(name.replace("O", "a"))
 # print(name*3)
 
-# type casting = converting the data type of a value to another data type 
+# type casting = converting the data type of a value to another data type
+
+# name = input("What is your name?: ") 
+# age  = int(input("How old are you?: "))
+# height = float(input("How tall are you?: "))
+
+# print("Hello " + name )
+# print("You are " + str(age) + " years old")
+# print("You are " + str(height) + "cm tall")
 
 
 
+# import math 
+
+# pi = -3.14
+# x = 1
+# y = 2
+# z = 3
+
+# print(round(pi))
+# print(math.ceil(pi))
+# print(math.floor(pi))
+# print(abs(pi))
+# print(pow(pi, 2))
+# print(math.sqrt(420))
+# print(max(x,y,z))\
+# print(min(x,y,z))
 
 
 
