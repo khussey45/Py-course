@@ -320,8 +320,19 @@
 
 # **kwargs = parameter that will pack all arguments into a dictionary useful so that a function can accept a varing amount of keyword arguments
 
-def hello(**kwargs):
-    print("Hello " + kwargs['first']+ " " + kwargs['last'])
+# def hello(**kwargs):
+#     print("Hello " + kwargs['first']+ " " + kwargs['last'])
 
-hello(first="Bro",middle="Dude",last="Code")
+# hello(first="Bro",middle="Dude",last="Code")
+
+# str.format() = optional method that gives users more control when displaying output
+
+# number = 1000
+
+# # print("The number pi is {:.3f}".format(number)) 
+# # print("The number is {:,}".format(number))
+# # print("The number is {:b}".format(number))
+# # print("The number is {:o}".format(number))
+# # print("The number is {:X}".format(number))
+# print("The number is {:E}".format(number))
 
