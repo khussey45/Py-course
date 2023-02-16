@@ -296,11 +296,24 @@
 
 # scope = The region that a variable ir recognized. A variable is only available from inside he region it is created.  A global and locally scoped versions of a variable can be created
 
-name = "Bro" # global scope (available inside & outside functions)
+# name = "Bro" # global scope (available inside & outside functions)
 
-def display_name():
-    name = "Code" # local scope (available only inside this function)
-    print(name)
+# def display_name():
+#     name = "Code" # local scope (available only inside this function)
+#     print(name)
 
-display_name()
-print(name)
+# display_name()
+# print(name)
+
+
+# *args  = paramter that will pack all arguments into a tuple useful so that a functon can accept a varying amount of arguments 
+
+# def add(*stuff):
+#     sum = 0
+#     stuff = list(stuff)
+#     stuff[0] = 0
+#     for i in stuff:
+#         sum += i
+#     return sum
+
+# print(add(1,2,3,4,5,6,7,8))
