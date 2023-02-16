@@ -317,3 +317,11 @@
 #     return sum
 
 # print(add(1,2,3,4,5,6,7,8))
+
+# **kwargs = parameter that will pack all arguments into a dictionary useful so that a function can accept a varing amount of keyword arguments
+
+def hello(**kwargs):
+    print("Hello " + kwargs['first']+ " " + kwargs['last'])
+
+hello(first="Bro",middle="Dude",last="Code")
+
