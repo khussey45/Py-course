@@ -275,9 +275,25 @@
 
 # print(x)
 
-# keyword arguments = arguments preceded by an identifier when we pass them to a function. The order of the arguments doesn't matter, unlike positional ...Python knows the name of the arguments that our function receives 
+# keyword arguments = arguments preceded by an identifier when we pass them to a function. The order of the arguments doesn't matter, unlike positional arguments Python knows the name of the arguments that our function receives 
 
-def hello(first,middle,last):
-    print("Hello "+first+" "+middle+" "+last)
+# def hello(first,middle,last):
+#     print("Hello "+first+" "+middle+" "+last)
 
-hello(last="code",middle="Dude",first="Bro")
+# hello(last="code",middle="Dude",first="Bro")
+
+
+# nested function calls = function calles inside other function calls. Innermost function calls are resolved first returned value is used as argument for the next outer function 
+
+# num = input("Enter a whole positive number: ")
+# num = float(num)
+# num = abs(num)
+# num = round(num)
+# print(num) 
+
+# print(round(abs(float(input("Enter a whole positive number: ")))))
+
+
+# scope = The region that a variable ir recognized. A variable is only available from inside he region it is created.  A global and locally scoped versions of a variable can be created
+
+ 
