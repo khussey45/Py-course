@@ -296,4 +296,11 @@
 
 # scope = The region that a variable ir recognized. A variable is only available from inside he region it is created.  A global and locally scoped versions of a variable can be created
 
- 
+name = "Bro" # global scope (available inside & outside functions)
+
+def display_name():
+    name = "Code" # local scope (available only inside this function)
+    print(name)
+
+display_name()
+print(name)
