@@ -257,3 +257,20 @@
 # print(first_name)
 # print(last_name)
 # print(last_character)
+
+# function = a block of code which is executed only when it is called
+
+# def hello(name):
+#     print("hello " + name)
+#     print("Have a nice day!")
+
+# hello("Bro")
+
+# return statement = Functions send Python values/objects back to the caller. These values/objects are known as the functions's return value
+
+# def multiply(number1, number2):
+#     return number1 * number2
+
+# x = multiply(6,8)
+
+# print(x)
