@@ -336,3 +336,20 @@
 # # print("The number is {:X}".format(number))
 # print("The number is {:E}".format(number))
 
+# import random
+
+# x = random.randint(1,6)
+# y = random.random()
+
+# myList = ['rock','paper','scissors']
+# z = random.choice(myList)
+
+# cards = [1,2,3,4,5,6,7,8,9,"J","q","k","A"]
+
+# random.shuffle(cards)
+
+# print(cards)
+
+
+
+
