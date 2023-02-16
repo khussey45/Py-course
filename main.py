@@ -243,4 +243,5 @@
 #     print(key, value)
 
 
-# 
+# index oeprator [] = gives access to as sequence's elemt (str,list,tuples)
+
