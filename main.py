@@ -386,3 +386,17 @@
 #     print("That location doesn't exist!")
 
 # minipluating files
+
+import os 
+
+source = "test.txt"
+desintation = "C:\\Users\\kiere\\OneDrive\\Desktop\\test.txt"
+
+try: 
+    if os.path.exists(desintation):
+        print("There is already a file there")
+    else:
+        os.replace(source,desintation)
+        print(source+" was moved")
+except FileNotFoundError:
+    print(source+" was not found")
