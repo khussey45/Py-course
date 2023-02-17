@@ -384,3 +384,5 @@
 #         print("That is a directory!")
 # else:
 #     print("That location doesn't exist!")
+
+# minipluating files
