@@ -387,16 +387,26 @@
 
 # minipluating files
 
-import os 
+# import os 
 
-source = "test.txt"
-desintation = "C:\\Users\\kiere\\OneDrive\\Desktop\\test.txt"
+# source = "test.txt"
+# desintation = "C:\\Users\\kiere\\OneDrive\\Desktop\\test.txt"
 
-try: 
-    if os.path.exists(desintation):
-        print("There is already a file there")
-    else:
-        os.replace(source,desintation)
-        print(source+" was moved")
-except FileNotFoundError:
-    print(source+" was not found")
+# try: 
+#     if os.path.exists(desintation):
+#         print("There is already a file there")
+#     else:
+#         os.replace(source,desintation)
+#         print(source+" was moved")
+# except FileNotFoundError:
+#     print(source+" was not found")
+
+
+# module = a file containng python code. May contain functions, classes, etc... used with modular programming which is to seperate a program into parts
+
+
+# from messages import hello,bye
+# hello()
+# bye()
+
+# help("modules")
