@@ -413,49 +413,77 @@
 
 #   ROCK PAPER SCISSORS
 
-import random 
-while True: 
-    choices = ["rock", "paper","scissors"]
+# import random 
+# while True: 
+#     choices = ["rock", "paper","scissors"]
 
-    computer  = random.choice(choices)
-    player  = None
+#     computer  = random.choice(choices)
+#     player  = None
 
-    while player not in choices: 
-        player  = input("rock, paper, or scissors?: ").lower()
-    if player == computer: 
-        print("computer: ",computer)
-        print("player: ",player)
-        print("Tie!") 
-    elif player == "rock":
-        if computer == "paper":
-            print("computer: ",computer)
-            print("player: ",player)
-            print("You lose!") 
-        if computer == "scissors":
-            print("computer: ",computer)
-            print("player: ",player)
-            print("You Win!")
-    elif player == "scissors":
-        if computer == "rock":
-            print("computer: ",computer)
-            print("player: ",player)
-            print("You lose!") 
-        if computer == "paper":
-            print("computer: ",computer)
-            print("player: ",player)
-            print("You Win!") 
-    elif player == "paper":
-        if computer == "sciossors":
-            print("computer: ",computer)
-            print("player: ",player)
-            print("You lose!") 
-        if computer == "rock":
-            print("computer: ",computer)
-            print("player: ",player)
-            print("You Win!") 
-    play_again = input("Play Again? (yes/no): ").lower()
+#     while player not in choices: 
+#         player  = input("rock, paper, or scissors?: ").lower()
+#     if player == computer: 
+#         print("computer: ",computer)
+#         print("player: ",player)
+#         print("Tie!") 
+#     elif player == "rock":
+#         if computer == "paper":
+#             print("computer: ",computer)
+#             print("player: ",player)
+#             print("You lose!") 
+#         if computer == "scissors":
+#             print("computer: ",computer)
+#             print("player: ",player)
+#             print("You Win!")
+#     elif player == "scissors":
+#         if computer == "rock":
+#             print("computer: ",computer)
+#             print("player: ",player)
+#             print("You lose!") 
+#         if computer == "paper":
+#             print("computer: ",computer)
+#             print("player: ",player)
+#             print("You Win!") 
+#     elif player == "paper":
+#         if computer == "sciossors":
+#             print("computer: ",computer)
+#             print("player: ",player)
+#             print("You lose!") 
+#         if computer == "rock":
+#             print("computer: ",computer)
+#             print("player: ",player)
+#             print("You Win!") 
+#     play_again = input("Play Again? (yes/no): ").lower()
 
-    if play_again != "yes":
-        break
-    
-print("Bye!")
+#     if play_again != "yes":
+#         break
+
+# print("Bye!")
+
+
+# QUIZ GAME
+# -------------------------
+def new_game():
+    pass
+# -------------------------
+def check_answer():
+    pass
+# -------------------------
+def display_score():
+    pass
+# -------------------------
+def play_again():
+    pass
+# ------------------------- 
+
+questions = {
+    "Who created Python?: ": "A", 
+    "what year was Python created?: ": "B",
+    "Python is tributed to which comedy group?: ": "C",
+    "Is the Earth round?: ": "A"
+}
+
+options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerburg"],
+          ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
+          ["A. Lonely Island", "B. Smosh", "C. Monty Python", "D. SNL"],
+          ["A. True","B. False", "C. sometimes", "D. What's Earth?"]]
