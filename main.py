@@ -464,7 +464,16 @@
 # QUIZ GAME
 # -------------------------
 def new_game():
-    pass
+    guesses = []
+    correct_answers = 0
+    question_num =  1
+
+    for key in questions:
+        print("-------------------------")
+        print(key)
+        for i in options[questions_num-1]:
+            print(i)
+
 # -------------------------
 def check_answer():
     pass
@@ -488,4 +497,4 @@ options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuc
           ["A. Lonely Island", "B. Smosh", "C. Monty Python", "D. SNL"],
           ["A. True","B. False", "C. sometimes", "D. What's Earth?"]] 
 
-# new_game()
+new_game()
