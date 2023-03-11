@@ -497,4 +497,4 @@ options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuc
           ["A. Lonely Island", "B. Smosh", "C. Monty Python", "D. SNL"],
           ["A. True","B. False", "C. sometimes", "D. What's Earth?"]] 
 
-new_game()
+# new_game()
